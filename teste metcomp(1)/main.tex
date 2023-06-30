@@ -1,0 +1,72 @@
+\documentclass{article}
+
+\usepackage{graphicx} % Required for inserting images
+\usepackage{hyperref}
+\usepackage{soul, xcolor}
+\usepackage[brazil]{babel}
+\usepackage{lipsum}
+
+
+\title{Física Experimental III}
+\author{Lois Valentim, Raimundo Ferreira}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introdução:}
+    \lipsum[1-2]
+    \cite{abcd}
+
+\section{Experimento, Análise, Conclusão:}
+    \lipsum[1-2] 
+    \cite{ref10}
+    \\
+    
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.15]{placeholder.png}
+        \caption{Ilustração do experimento}
+    \end{figure}
+    
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c|c}
+    \hline
+    col1 & col2 \\
+    \hline
+    dados1     &  dados1 \\
+    dados1     &  dados1 \\
+    dados1     &  dados1 \\
+    dados1     &  dados1 \\
+    dados1     &  dados1 \\
+    dados1     &  dados1 \\
+    dados1     &  dados1 \\
+    dados1     &  dados1 \\
+    dados1     &  dados1 \\
+    dados1     &  dados1 \\
+    \end{tabular}
+    \caption{Dados do experimento}
+    \label{tab:my_label}
+\end{table}
+
+\section{Análise:}
+    \lipsum[1-2]
+
+        \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.15]{placeholder.png}
+        \caption{Ilustração do experimento}
+    \end{figure}
+
+\section{Conclusão:}
+    \lipsum[1-2]
+    \cite{oi}
+
+\bibliographystyle{plain}
+\bibliography{lois.bib}
+
+\end{document}
+
+
